@@ -1,4 +1,1 @@
-These are the annotations defined on the deployment — and they are also present on the service.
-I’ve just restarted the pod, so it should now have the annotations correctly applied at pod level as well.
-
-Let me know if you still can’t see them.
+Based on the analysis documented in incident INC32453452, the issue was related to CoreDNS. Has the CoreDNS problem been resolved?
