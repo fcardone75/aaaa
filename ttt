@@ -1,0 +1,13 @@
+Hi Samy,
+
+Please find below the information regarding the gateway timeout for the ingress liguria-ingress → service artigianatoliguria:
+	•	Source labels: not specified – default pod configuration assumed
+	•	Destination labels: no custom labels applied to the artigianatoliguria service
+	•	Destination port: 80 TCP (ClusterIP: 198.18.31.78)
+
+The external call reaches the ingress at staging.artigianatoliguria.it, which routes traffic to the service artigianatoliguria on port 80.
+
+Let me know if you need additional logs or details.
+
+Best regards,
+Flaviano
