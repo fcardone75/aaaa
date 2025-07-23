@@ -1,1 +1,1 @@
-I’ve just added the labels and retried the external access to reach the site. This way, you should have some logs for today.
+I’ve added annotations both on the service and the deployment in K8s, but the request doesn’t even reach the pod – it gets blocked earlier.
