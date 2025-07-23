@@ -1,1 +1,5 @@
-I’ve added annotations both on the service and the deployment in K8s, but the request doesn’t even reach the pod – it gets blocked earlier.
+Thanks for the details. I believe we are working on two different environments.
+The screenshot you shared refers to the production namespace ns002i010233, whereas I’m currently working in the qualification namespace ns002i010420, which is part of the Prezi environment on IBM Cloud.
+At the moment, I’m only trying to reach the NGINX pod. The reverse proxy configuration to route traffic to the GAL and CCL services in the qualification environment will come later.
+So for now, what I expect to see is just the default NGINX welcome page.
+Let me know if you need any extra info.
