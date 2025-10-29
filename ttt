@@ -1,1 +1,8 @@
-Based on the analysis documented in incident INC32453452, the issue was related to CoreDNS. Has the CoreDNS problem been resolved?
+Buongiorno,
+ 
+in merito alla richiesta di remediation relativa al componente phpSpreadsheet, segnaliamo che:
+	1.	Tra la versione attualmente in uso e l’ultima disponibile risultano tre major release di differenza, con conseguente rischio di impatti significativi sul codice applicativo.
+	2.	L’aggiornamento non può essere considerato “indolore”, poiché comporterebbe verifiche e adeguamenti del codice per garantire la piena compatibilità.
+	3.	Al momento non è possibile procedere con l’update in quanto non è presente il repository PHP necessario internamente al gruppo.
+ 
+Restiamo a disposizione per valutare insieme eventuali alternative o pianificare un intervento strutturato di upgrade.
