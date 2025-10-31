@@ -1,8 +1,11 @@
-Buongiorno,
- 
-in merito alla richiesta di remediation relativa al componente phpSpreadsheet, segnaliamo che:
-	1.	Tra la versione attualmente in uso e l’ultima disponibile risultano tre major release di differenza, con conseguente rischio di impatti significativi sul codice applicativo.
-	2.	L’aggiornamento non può essere considerato “indolore”, poiché comporterebbe verifiche e adeguamenti del codice per garantire la piena compatibilità.
-	3.	Al momento non è possibile procedere con l’update in quanto non è presente il repository PHP necessario internamente al gruppo.
- 
-Restiamo a disposizione per valutare insieme eventuali alternative o pianificare un intervento strutturato di upgrade.
+Ciao, vi lascio un aggiornamento rapido su quanto visto:
+
+Upload file: c’è un problema durante l’upload, che richiede un test dedicato per verificare l’intero flusso e capire dove si interrompe.
+
+Accesso ai portali Liguria; provando ad accedere a
+	•	https://backoffice.artigianatoliguria.it
+	•	https://backoffice.cassaliguria.it
+si osservano numerosi errori “invalid”/richieste bloccate nella console del browser.
+Il comportamento potrebbe essere collegato al WAF/CDN Akamai che eventualmente sta filtrando alcune chiamate, ma è necessario verificarlo da chi gestisce la configurazione.
+
+Entrambi gli aspetti sono riproducibili e da approfondire, in particolare la parte relativa al WAF Akamai. 
