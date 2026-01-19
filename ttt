@@ -1,1 +1,36 @@
 RUN sed -i '/server_name/a\    include headers.conf;' /etc/nginx/conf.d/more_vhost.conf
+
+headers.conf
+##
+# Security Headers – single source of truth
+# Questo file viene incluso DENTRO il server {}
+##
+
+# Content Security Policy (moderna)
+add_header Content-Security-Policy "
+  default-src 'self';
+  script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com;
+  style-src  'self' https://code.jquery.com https://cdnjs.cloudflare.com;
+  img-src    'self' data: https://www.w3.org;
+  font-src   'self' https://cdnjs.cloudflare.com;
+  connect-src 'self';
+  object-src 'none';
+  base-uri 'self';
+  frame-ancestors 'none';
+" always;
+
+# Disabilita sniffing MIME
+add_header X-Content-Type-Options "nosniff" always;
+
+# Referrer policy sensata
+add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+
+# HSTS (solo se HTTPS è già garantito a monte)
+add_header Strict-Transport-Security "max-age=63072000; includeSubDomains" always;
+
+# Rimuove informazioni inutili
+proxy_hide_header X-Powered-By;
+
+# Header legacy da NON usare (documentazione vivente)
+# X-Frame-Options -> sostituito da frame-ancestors
+# X-XSS-Protection -> deprecato nei browser moderni
