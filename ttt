@@ -1,15 +1,15 @@
-nelmio_security:
-  clickjacking:
-    enabled: false
+Hi team,
+I’m unable to access our Git repositories.
 
-  xss_protection:
-    enabled: false
+Repository URL(s):
+	•	https://…
 
-  content_type:
-    nosniff: false
+After completing the SSO login, the redirect finishes but I receive the following error:
 
-  referrer_policy:
-    enabled: false
+“”
 
-  csp:
-    enabled: false
+This happens consistently and prevents me from cloning/pulling/pushing.
+Could you please check whether my account/permissions/SSO mapping are correctly configured and advise on the next steps?
+
+Thanks,
+Flaviano
