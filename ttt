@@ -1,15 +1,4 @@
-Hi team,
-I’m unable to access our Git repositories.
+Buongiorno Leonardo,
+il server che era stato creato come bastion host per effettuare operazioni su PostgreSQL al momento non è in uso, quindi non ci è servito.
 
-Repository URL(s):
-	•	https://…
-
-After completing the SSO login, the redirect finishes but I receive the following error:
-
-“”
-
-This happens consistently and prevents me from cloning/pulling/pushing.
-Could you please check whether my account/permissions/SSO mapping are correctly configured and advise on the next steps?
-
-Thanks,
-Flaviano
+L’unico possibile problema potrebbe nascere nel caso in cui dovessimo accedere al database: non credo esista un modo alternativo per farlo senza passare dal bastion host.
