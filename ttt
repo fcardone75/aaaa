@@ -1,1 +1,1 @@
-php bin/console doctrine:query:sql "SELECT now()"
+php bin/console doctrine:query:sql "SELECT id, email FROM \"user\" WHERE email = 'rita.vaccari@bnpparibas.com' LIMIT 1;"
