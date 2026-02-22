@@ -1,1 +1,3 @@
 php bin/console doctrine:query:sql "SELECT id, email FROM \"user\" WHERE email = 'rita.vaccari@bnpparibas.com' LIMIT 1;"
+
+php bin/console doctrine:query:sql "UPDATE \"user\" SET reset_password_token = NULL, reset_password_requested_at = NULL WHERE id = 103;"
