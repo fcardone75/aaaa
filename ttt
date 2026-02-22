@@ -1,4 +1,3 @@
-Buongiorno Leonardo,
-il server che era stato creato come bastion host per effettuare operazioni su PostgreSQL al momento non è in uso, quindi non ci è servito.
-
-L’unico possibile problema potrebbe nascere nel caso in cui dovessimo accedere al database: non credo esista un modo alternativo per farlo senza passare dal bastion host.
+/** @var \Doctrine\DBAL\Connection $conn */
+$conn = $this->getContainer()->get('doctrine')->getConnection();
+$rows = $conn->fetchAllAssociative('SELECT now()');
