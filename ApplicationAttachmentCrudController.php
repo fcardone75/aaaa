@@ -34,15 +34,17 @@ class ApplicationAttachmentCrudController extends AbstractCrudController
     public function download(
         ManagerRegistry $managerRegistry,
         Request $request,
-                        $id,
-                        $fileName
+        $id,
+        $fileName
     ): Response
     {
         $em = $managerRegistry->getManager();
         $entity = $em->getRepository(ApplicationAttachment::class)->find($id);
 
         if (!$entity) {
-            throw $this->createNotFoundException('ApplicationAttachment not found');
+            $this->addFlash('danger', 'Allegato non trovato.');
+            $referer = $request->headers->get('referer', '/');
+            return $this->redirect($referer);
         }
 
         $fs = $this->filesystemMap->get('application_attachment');
