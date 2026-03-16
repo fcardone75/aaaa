@@ -7,6 +7,7 @@ use Gaufrette\FilesystemInterface;
 use Symfony\Component\HttpFoundation\Response;
 use ZipArchive;
 
+// /application-message-attachments/46/download
 class Zipper implements ZipperInterface
 {
     public function getResponseFromZipFiles($filesMap, $zipName = 'Documents.zip'): Response
