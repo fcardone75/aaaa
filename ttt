@@ -1,3 +1,32 @@
 php bin/console doctrine:query:sql "SELECT id, email FROM \"user\" WHERE email = 'rita.vaccari@bnpparibas.com' LIMIT 1;"
 
 php bin/console doctrine:query:sql "UPDATE \"user\" SET reset_password_token = NULL, reset_password_requested_at = NULL WHERE id = 103;"
+
+
+
+Ciao Francesco,
+
+ti segnalo due problemi riscontrati in ambiente di collaudo, che al momento stanno bloccando le attività di test e rilascio.
+
+Il primo problema riguarda il portale Liguria (CCL). Fino a ieri non era più raggiungibile all’indirizzo:
+
+https://portaleliguria.staging.echonet
+
+In risposta veniva restituito sempre un errore 404 Not Found. Per poter comunque procedere con le verifiche sul rilascio, ho temporaneamente utilizzato il portale Liguria agganciandolo al DNS di GAL, cioè:
+
+https://artigianato-ligura.staging.echonet
+
+In questo modo sono riuscito a completare i test previsti per quella parte.
+
+Oggi avrei dovuto proseguire con i test su GAL, ma collegandomi alla dashboard Kubernetes, nel namespace ns002i009840, visualizzo sempre il messaggio che non ci sono risorse disponibili, indipendentemente dall’elemento selezionato. Di fatto non riesco quindi a procedere con il rilascio della nuova versione né con i relativi test in ambiente di collaudo.
+
+La mia utenza è a23194.
+
+Possiamo aprire un ticket per far verificare e risolvere entrambi i problemi? Ti riporto anche il riferimento dell’account IBM Cloud del cliente, utile eventualmente per l’apertura della segnalazione:
+
+2313220 - dMZR - NPR - ac002i00…
+
+Resto a disposizione nel caso servano ulteriori dettagli o evidenze.
+
+Grazie,
+Flaviano
