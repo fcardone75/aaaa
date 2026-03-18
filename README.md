@@ -1,1 +1,1 @@
-https://artigianato-liguria.staging.echonet/reset-password/reset/Zlldo3DzCMQMcAbwEnn6KYz9jUiZ2kxQPHi8ejahfyg
+noo
