@@ -1,0 +1,439 @@
+ambito;dbms;istanza;nome tabella;nome colonna;nome funzionale
+Global;prosgres;xxxxxx;AdditionalContribution;id;id
+Global;prosgres;xxxxxx;AdditionalContribution;type;type
+Global;prosgres;xxxxxx;AdditionalContribution;presentationDate;presentation date
+Global;prosgres;xxxxxx;AdditionalContribution;createdAt;created at
+Global;prosgres;xxxxxx;AdditionalContribution;updatedAt;updated at
+Global;prosgres;xxxxxx;AdditionalContribution;deletedAt;deleted at
+Global;prosgres;xxxxxx;AdditionalContribution;inImport;in import
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaNumeroPosizione;nsia numero posizione
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaStatus;nsia status
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaNota;nsia nota
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataDelibera;nsia data delibera
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaCodiceCor;nsia codice cor
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRilascioCor;nsia data rilascio cor
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoDeliberato;nsia importo contributo deliberato
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoLiquidato;nsia importo contributo liquidato
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataLiquidazione;nsia data liquidazione
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaIbanLiquidazione;nsia iban liquidazione
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRevoca;nsia data revoca
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaMotivoRevoca;nsia motivo revoca
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoRevocato;nsia importo contributo revocato
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataAvvioProcedimentoRevoca;nsia data avvio procedimento revoca
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoRecuperoDovuto;nsia importo recupero dovuto
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaInteressiDovuti;nsia interessi dovuti
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRichiestaRecupero;nsia data richiesta recupero
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoRestituito;nsia importo contributo restituito
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoInteressiRestituiti;nsia importo interessi restituiti
+Global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRestituzione;nsia data restituzione
+Global;prosgres;xxxxxx;Application;id;id
+Global;prosgres;xxxxxx;Application;practiceId;practice id
+Global;prosgres;xxxxxx;Application;flagEnergia;flag energia
+Global;prosgres;xxxxxx;Application;aeGAssuranceAmount;ae g assurance amount
+Global;prosgres;xxxxxx;Application;aeGResolutionDate;ae g resolution date
+Global;prosgres;xxxxxx;Application;aeAcCommissionsRebateRequest;ae ac commissions rebate request
+Global;prosgres;xxxxxx;Application;aeAcInterestsContributionRequest;ae ac interests contribution request
+Global;prosgres;xxxxxx;Application;aeAcLostFundContributionRequest;ae ac lost fund contribution request
+Global;prosgres;xxxxxx;Application;aeAcContributionApplicationAmount;ae ac contribution application amount
+Global;prosgres;xxxxxx;Application;aeAcApplicationMembers;ae ac application members
+Global;prosgres;xxxxxx;Application;aeIbBusinessName;ae ib business name
+Global;prosgres;xxxxxx;Application;aeIbFiscalCode;ae ib fiscal code
+Global;prosgres;xxxxxx;Application;aeIbSize;ae ib size
+Global;prosgres;xxxxxx;Application;aeIbConstitutionDate;ae ib constitution date
+Global;prosgres;xxxxxx;Application;aeIbChamberOfCommerceCode;ae ib chamber of commerce code
+Global;prosgres;xxxxxx;Application;aeIbChamberOfCommerceRegistrationDate;ae ib chamber of commerce registration date
+Global;prosgres;xxxxxx;Application;aeIbAIACode;ae ib AIA code
+Global;prosgres;xxxxxx;Application;aeIbAIARegistrationDate;ae ib AIA registration date
+Global;prosgres;xxxxxx;Application;aeIbAtecoCode;ae ib ateco code
+Global;prosgres;xxxxxx;Application;aeIbAtecoStartDate;ae ib ateco start date
+Global;prosgres;xxxxxx;Application;aeIbIban;ae ib iban
+Global;prosgres;xxxxxx;Application;aeIbLegalForm;ae ib legal form
+Global;prosgres;xxxxxx;Application;aePecAddress;ae pec address
+Global;prosgres;xxxxxx;Application;aeOfficeAddress;ae office address
+Global;prosgres;xxxxxx;Application;aeOfficePostcode;ae office postcode
+Global;prosgres;xxxxxx;Application;aeOfficeCity;ae office city
+Global;prosgres;xxxxxx;Application;aeWorkplaceAddress;ae workplace address
+Global;prosgres;xxxxxx;Application;aeWorkplacePostcode;ae workplace postcode
+Global;prosgres;xxxxxx;Application;aeWorkplaceCity;ae workplace city
+Global;prosgres;xxxxxx;Application;aeOwnerLastname;ae owner lastname
+Global;prosgres;xxxxxx;Application;aeOwnerFirstname;ae owner firstname
+Global;prosgres;xxxxxx;Application;aeOwnerBirthDate;ae owner birth date
+Global;prosgres;xxxxxx;Application;aeOwnerGender;ae owner gender
+Global;prosgres;xxxxxx;Application;aeOwnerFiscalCode;ae owner fiscal code
+Global;prosgres;xxxxxx;Application;aeOwnerBirthCity;ae owner birth city
+Global;prosgres;xxxxxx;Application;aeOwnerBirthCountry;ae owner birth country
+Global;prosgres;xxxxxx;Application;aeOwnerJoinDate;ae owner join date
+Global;prosgres;xxxxxx;Application;aeFirstMemberLastname;ae first member lastname
+Global;prosgres;xxxxxx;Application;aeFirstMemberFirstname;ae first member firstname
+Global;prosgres;xxxxxx;Application;aeFirstMemberBirthDate;ae first member birth date
+Global;prosgres;xxxxxx;Application;aeFirstMemberGender;ae first member gender
+Global;prosgres;xxxxxx;Application;aeFirstMemberFiscalCode;ae first member fiscal code
+Global;prosgres;xxxxxx;Application;aeFirstMemberBirthCity;ae first member birth city
+Global;prosgres;xxxxxx;Application;aeFirstMemberBirthCountry;ae first member birth country
+Global;prosgres;xxxxxx;Application;aeFirstMemberJoinDate;ae first member join date
+Global;prosgres;xxxxxx;Application;aeSecondMemberLastname;ae second member lastname
+Global;prosgres;xxxxxx;Application;aeSecondMemberFirstname;ae second member firstname
+Global;prosgres;xxxxxx;Application;aeSecondMemberBirthDate;ae second member birth date
+Global;prosgres;xxxxxx;Application;aeSecondMemberGender;ae second member gender
+Global;prosgres;xxxxxx;Application;aeSecondMemberFiscalCode;ae second member fiscal code
+Global;prosgres;xxxxxx;Application;aeSecondMemberBirthCity;ae second member birth city
+Global;prosgres;xxxxxx;Application;aeSecondMemberBirthCountry;ae second member birth country
+Global;prosgres;xxxxxx;Application;aeSecondMemberJoinDate;ae second member join date
+Global;prosgres;xxxxxx;Application;aeThirdMemberLastname;ae third member lastname
+Global;prosgres;xxxxxx;Application;aeThirdMemberFirstname;ae third member firstname
+Global;prosgres;xxxxxx;Application;aeThirdMemberBirthDate;ae third member birth date
+Global;prosgres;xxxxxx;Application;aeThirdMemberGender;ae third member gender
+Global;prosgres;xxxxxx;Application;aeThirdMemberFiscalCode;ae third member fiscal code
+Global;prosgres;xxxxxx;Application;aeThirdMemberBirthCity;ae third member birth city
+Global;prosgres;xxxxxx;Application;aeThirdMemberBirthCountry;ae third member birth country
+Global;prosgres;xxxxxx;Application;aeThirdMemberJoinDate;ae third member join date
+Global;prosgres;xxxxxx;Application;aeFourthMemberLastname;ae fourth member lastname
+Global;prosgres;xxxxxx;Application;aeFourthMemberFirstname;ae fourth member firstname
+Global;prosgres;xxxxxx;Application;aeFourthMemberBirthDate;ae fourth member birth date
+Global;prosgres;xxxxxx;Application;aeFourthMemberGender;ae fourth member gender
+Global;prosgres;xxxxxx;Application;aeFourthMemberFiscalCode;ae fourth member fiscal code
+Global;prosgres;xxxxxx;Application;aeFourthMemberBirthCity;ae fourth member birth city
+Global;prosgres;xxxxxx;Application;aeFourthMemberBirthCountry;ae fourth member birth country
+Global;prosgres;xxxxxx;Application;aeFourthMemberJoinDate;ae fourth member join date
+Global;prosgres;xxxxxx;Application;fDbfBank;f dbf bank
+Global;prosgres;xxxxxx;Application;fDbfBusinessName;f dbf business name
+Global;prosgres;xxxxxx;Application;fDbfABI;f dbf ABI
+Global;prosgres;xxxxxx;Application;fFFinancialDestination;f f financial destination
+Global;prosgres;xxxxxx;Application;fDfLoanProvidedAtImport;f df loan provided at import
+Global;prosgres;xxxxxx;Application;fDfAmount;f df amount
+Global;prosgres;xxxxxx;Application;fDfContractSignatureDate;f df contract signature date
+Global;prosgres;xxxxxx;Application;fDfResolutionDate;f df resolution date
+Global;prosgres;xxxxxx;Application;fDfIssueDate;f df issue date
+Global;prosgres;xxxxxx;Application;fDfDuration;f df duration
+Global;prosgres;xxxxxx;Application;fDfPeriodicity;f df periodicity
+Global;prosgres;xxxxxx;Application;fDfFirstDepreciationDeadline;f df first depreciation deadline
+Global;prosgres;xxxxxx;Application;fDfPreDepreciationExists;f df pre depreciation exists
+Global;prosgres;xxxxxx;Application;fDfInstallmentAmount;f df installment amount
+Global;prosgres;xxxxxx;Application;fTRateType;f t rate type
+Global;prosgres;xxxxxx;Application;fTRate;f t rate
+Global;prosgres;xxxxxx;Application;fTTaeg;f t taeg
+Global;prosgres;xxxxxx;Application;lSfBankLeasing;l sf bank leasing
+Global;prosgres;xxxxxx;Application;lSfBusinessName;l sf business name
+Global;prosgres;xxxxxx;Application;lSfLeasingDestination;l sf leasing destination
+Global;prosgres;xxxxxx;Application;lDclAmount;l dcl amount
+Global;prosgres;xxxxxx;Application;lDclContractSignatureDate;l dcl contract signature date
+Global;prosgres;xxxxxx;Application;lDclResolutionDate;l dcl resolution date
+Global;prosgres;xxxxxx;Application;lDclDuration;l dcl duration
+Global;prosgres;xxxxxx;Application;lDclPeriodicity;l dcl periodicity
+Global;prosgres;xxxxxx;Application;lDclFirstDeadline;l dcl first deadline
+Global;prosgres;xxxxxx;Application;lDclFeeAmount;l dcl fee amount
+Global;prosgres;xxxxxx;Application;lDclFeePercentage;l dcl fee percentage
+Global;prosgres;xxxxxx;Application;lDclRansomPercentage;l dcl ransom percentage
+Global;prosgres;xxxxxx;Application;lDclRate;l dcl rate
+Global;prosgres;xxxxxx;Application;protocolNumber;protocol number
+Global;prosgres;xxxxxx;Application;protocolDate;protocol date
+Global;prosgres;xxxxxx;Application;createdAt;created at
+Global;prosgres;xxxxxx;Application;updatedAt;updated at
+Global;prosgres;xxxxxx;Application;deletedAt;deleted at
+Global;prosgres;xxxxxx;Application;status;status
+Global;prosgres;xxxxxx;Application;inquestStatus;inquest status
+Global;prosgres;xxxxxx;Application;nsiaNumeroPosizione;nsia numero posizione
+Global;prosgres;xxxxxx;Application;nsiaDataProtocollo;nsia data protocollo
+Global;prosgres;xxxxxx;Application;nsiaNota;nsia nota
+Global;prosgres;xxxxxx;Application;nsiaDataDelibera;nsia data delibera
+Global;prosgres;xxxxxx;Application;nsiaCodiceCor;nsia codice cor
+Global;prosgres;xxxxxx;Application;nsiaDataRilascioCor;nsia data rilascio cor
+Global;prosgres;xxxxxx;Application;nsiaLDclImportoRiscatto;nsia l dcl importo riscatto
+Global;prosgres;xxxxxx;Application;nsiaDurataGaranzia;nsia durata garanzia
+Global;prosgres;xxxxxx;Application;nsiaImportoRiassicurazione;nsia importo riassicurazione
+Global;prosgres;xxxxxx;Application;nsiaEslRiassicurazione;nsia esl riassicurazione
+Global;prosgres;xxxxxx;Application;nsiaDataInizioGaranzia;nsia data inizio garanzia
+Global;prosgres;xxxxxx;Application;nsiaDataFineGaranzia;nsia data fine garanzia
+Global;prosgres;xxxxxx;Application;nsiaDataLiquidazioneConfidi;nsia data liquidazione confidi
+Global;prosgres;xxxxxx;Application;nsiaImportoPerditaConfidi;nsia importo perdita confidi
+Global;prosgres;xxxxxx;Application;nsiaDataRichiestaRimborso;nsia data richiesta rimborso
+Global;prosgres;xxxxxx;Application;nsiaDataProtocolloPerdita;nsia data protocollo perdita
+Global;prosgres;xxxxxx;Application;nsiaDataDeliberaPerdita;nsia data delibera perdita
+Global;prosgres;xxxxxx;Application;nsiaImportoRimborsoPrenotato;nsia importo rimborso prenotato
+Global;prosgres;xxxxxx;Application;nsiaImportoRimborsato;nsia importo rimborsato
+Global;prosgres;xxxxxx;Application;nsiaDataLiquidazione;nsia data liquidazione
+Global;prosgres;xxxxxx;Application;nsiaImportoRestituitoConfidi;nsia importo restituito confidi
+Global;prosgres;xxxxxx;Application;nsiaDataRestituzioneConfidi;nsia data restituzione confidi
+Global;prosgres;xxxxxx;ApplicationAttachment;id;id
+Global;prosgres;xxxxxx;ApplicationAttachment;fileName;file name
+Global;prosgres;xxxxxx;ApplicationAttachment;originalFileName;original file name
+Global;prosgres;xxxxxx;ApplicationAttachment;fileSize;file size
+Global;prosgres;xxxxxx;ApplicationAttachment;fileUploadedAt;file uploaded at
+Global;prosgres;xxxxxx;ApplicationAttachment;description;description
+Global;prosgres;xxxxxx;ApplicationAttachment;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationAttachment;updatedAt;updated at
+Global;prosgres;xxxxxx;ApplicationAttachment;deletedAt;deleted at
+Global;prosgres;xxxxxx;ApplicationGroup;id;id
+Global;prosgres;xxxxxx;ApplicationGroup;protocolNumber;protocol number
+Global;prosgres;xxxxxx;ApplicationGroup;protocolDate;protocol date
+Global;prosgres;xxxxxx;ApplicationGroup;status;status
+Global;prosgres;xxxxxx;ApplicationGroup;filename;filename
+Global;prosgres;xxxxxx;ApplicationGroup;originalFileName;original file name
+Global;prosgres;xxxxxx;ApplicationGroup;fileSize;file size
+Global;prosgres;xxxxxx;ApplicationGroup;fileUploadedAt;file uploaded at
+Global;prosgres;xxxxxx;ApplicationGroup;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationGroup;updatedAt;updated at
+Global;prosgres;xxxxxx;ApplicationGroup;deletedAt;deleted at
+Global;prosgres;xxxxxx;ApplicationImport;id;id
+Global;prosgres;xxxxxx;ApplicationImport;filename;filename
+Global;prosgres;xxxxxx;ApplicationImport;status;status
+Global;prosgres;xxxxxx;ApplicationImport;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationImport;updatedAt;updated at
+Global;prosgres;xxxxxx;ApplicationImport;deletedAt;deleted at
+Global;prosgres;xxxxxx;ApplicationImport;errors;errors
+Global;prosgres;xxxxxx;ApplicationImportTemplate;id;id
+Global;prosgres;xxxxxx;ApplicationImportTemplate;filename;filename
+Global;prosgres;xxxxxx;ApplicationImportTemplate;active;active
+Global;prosgres;xxxxxx;ApplicationImportTemplate;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationImportTemplate;revision;revision
+Global;prosgres;xxxxxx;ApplicationMessage;id;id
+Global;prosgres;xxxxxx;ApplicationMessage;text;text
+Global;prosgres;xxxxxx;ApplicationMessage;published;published
+Global;prosgres;xxxxxx;ApplicationMessage;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationMessage;updatedAt;updated at
+Global;prosgres;xxxxxx;ApplicationMessage;deletedAt;deleted at
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;id;id
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;fileName;file name
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;fileSize;file size
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;originalFileName;original file name
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;updatedAt;updated at
+Global;prosgres;xxxxxx;ApplicationMessageAttachment;deletedAt;deleted at
+Global;prosgres;xxxxxx;ApplicationStatusLog;id;id
+Global;prosgres;xxxxxx;ApplicationStatusLog;status;status
+Global;prosgres;xxxxxx;ApplicationStatusLog;description;description
+Global;prosgres;xxxxxx;ApplicationStatusLog;createdAt;created at
+Global;prosgres;xxxxxx;ApplicationStatusLog;deletedAt;deleted at
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;id;id
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;practiceId;practice id
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;flagEnergia;flag energia
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;gAssuranceAmount;g assurance amount
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;gResolutionDate;g resolution date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;acCommissionsRebateRequest;ac commissions rebate request
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;acInterestsContributionRequest;ac interests contribution request
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;acLostFundContributionRequest;ac lost fund contribution request
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;acContributionApplicationAmount;ac contribution application amount
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;acApplicationMembers;ac application members
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibBusinessName;ib business name
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibFiscalCode;ib fiscal code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibSize;ib size
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibConstitutionDate;ib constitution date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibChamberOfCommerceCode;ib chamber of commerce code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibChamberOfCommerceRegistrationDate;ib chamber of commerce registration date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAIACode;ib AIA code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAIARegistrationDate;ib AIA registration date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAtecoCode;ib ateco code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAtecoStartDate;ib ateco start date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibIban;ib iban
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibLegalForm;ib legal form
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;pecAddress;pec address
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;officeAddress;office address
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;officePostcode;office postcode
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;officeCity;office city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;workplaceAddress;workplace address
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;workplacePostcode;workplace postcode
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;workplaceCity;workplace city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerLastname;owner lastname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerFirstname;owner firstname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerBirthDate;owner birth date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerGender;owner gender
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerFiscalCode;owner fiscal code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerBirthCity;owner birth city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerBirthCountry;owner birth country
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerJoinDate;owner join date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberLastname;first member lastname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberFirstname;first member firstname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberBirthDate;first member birth date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberGender;first member gender
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberFiscalCode;first member fiscal code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberBirthCity;first member birth city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberBirthCountry;first member birth country
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberJoinDate;first member join date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberLastname;second member lastname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberFirstname;second member firstname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberBirthDate;second member birth date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberGender;second member gender
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberFiscalCode;second member fiscal code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberBirthCity;second member birth city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberBirthCountry;second member birth country
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberJoinDate;second member join date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberLastname;third member lastname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberFirstname;third member firstname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberBirthDate;third member birth date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberGender;third member gender
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberFiscalCode;third member fiscal code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberBirthCity;third member birth city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberBirthCountry;third member birth country
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberJoinDate;third member join date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberLastname;fourth member lastname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberFirstname;fourth member firstname
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberBirthDate;fourth member birth date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberGender;fourth member gender
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberFiscalCode;fourth member fiscal code
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberBirthCity;fourth member birth city
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberBirthCountry;fourth member birth country
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberJoinDate;fourth member join date
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;row;row
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;createdAt;created at
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;updatedAt;updated at
+Global;prosgres;xxxxxx;AssuranceEnterpriseImport;deletedAt;deleted at
+Global;prosgres;xxxxxx;AtecoCode;id;id
+Global;prosgres;xxxxxx;AtecoCode;code;code
+Global;prosgres;xxxxxx;AtecoCode;codeWithoutDots;code without dots
+Global;prosgres;xxxxxx;AtecoCode;description;description
+Global;prosgres;xxxxxx;AtecoCode;section;section
+Global;prosgres;xxxxxx;Bank;id;id
+Global;prosgres;xxxxxx;Bank;name;name
+Global;prosgres;xxxxxx;Bank;code;code
+Global;prosgres;xxxxxx;BankLeasing;id;id
+Global;prosgres;xxxxxx;BankLeasing;name;name
+Global;prosgres;xxxxxx;BankLeasing;code;code
+Global;prosgres;xxxxxx;City;id;id
+Global;prosgres;xxxxxx;City;name;name
+Global;prosgres;xxxxxx;City;code;code
+Global;prosgres;xxxxxx;City;inRegion;in region
+Global;prosgres;xxxxxx;CompanySize;id;id
+Global;prosgres;xxxxxx;CompanySize;size;size
+Global;prosgres;xxxxxx;CompanySize;code;code
+Global;prosgres;xxxxxx;Confidi;id;id
+Global;prosgres;xxxxxx;Confidi;businessName;business name
+Global;prosgres;xxxxxx;Confidi;legalRepresentative;legal representative
+Global;prosgres;xxxxxx;Confidi;iban;iban
+Global;prosgres;xxxxxx;Confidi;fiscalCode;fiscal code
+Global;prosgres;xxxxxx;Confidi;nsiaCode;nsia code
+Global;prosgres;xxxxxx;Confidi;nsiaTotGarantito;nsia tot garantito
+Global;prosgres;xxxxxx;Confidi;nsiaTotRiservaAccantonata;nsia tot riserva accantonata
+Global;prosgres;xxxxxx;Confidi;nsiaTotInefficace;nsia tot inefficace
+Global;prosgres;xxxxxx;Confidi;nsiaTotEscusso;nsia tot escusso
+Global;prosgres;xxxxxx;Confidi;nsiaTotEscutibile;nsia tot escutibile
+Global;prosgres;xxxxxx;Confidi;nsiaNumeroPratichePresentate;nsia numero pratiche presentate
+Global;prosgres;xxxxxx;Confidi;nsiaNumeroPraticheApprovate;nsia numero pratiche approvate
+Global;prosgres;xxxxxx;Confidi;nsiaNumeroPraticheInEssere;nsia numero pratiche in essere
+Global;prosgres;xxxxxx;Country;id;id
+Global;prosgres;xxxxxx;Country;name;name
+Global;prosgres;xxxxxx;Country;code;code
+Global;prosgres;xxxxxx;FinancialDestination;id;id
+Global;prosgres;xxxxxx;FinancialDestination;destination;destination
+Global;prosgres;xxxxxx;FinancialDestination;code;code
+Global;prosgres;xxxxxx;FinancingImport;id;id
+Global;prosgres;xxxxxx;FinancingImport;practiceId;practice id
+Global;prosgres;xxxxxx;FinancingImport;dbfBank;dbf bank
+Global;prosgres;xxxxxx;FinancingImport;dbfBusinessName;dbf business name
+Global;prosgres;xxxxxx;FinancingImport;dbfABI;dbf ABI
+Global;prosgres;xxxxxx;FinancingImport;fFinancialDestination;f financial destination
+Global;prosgres;xxxxxx;FinancingImport;dfLoanProvidedAtImport;df loan provided at import
+Global;prosgres;xxxxxx;FinancingImport;dfAmount;df amount
+Global;prosgres;xxxxxx;FinancingImport;dfContractSignatureDate;df contract signature date
+Global;prosgres;xxxxxx;FinancingImport;dfResolutionDate;df resolution date
+Global;prosgres;xxxxxx;FinancingImport;dfIssueDate;df issue date
+Global;prosgres;xxxxxx;FinancingImport;dfDuration;df duration
+Global;prosgres;xxxxxx;FinancingImport;dfPeriodicity;df periodicity
+Global;prosgres;xxxxxx;FinancingImport;dfFirstDepreciationDeadline;df first depreciation deadline
+Global;prosgres;xxxxxx;FinancingImport;dfPreDepreciationExists;df pre depreciation exists
+Global;prosgres;xxxxxx;FinancingImport;dfInstallmentAmount;df installment amount
+Global;prosgres;xxxxxx;FinancingImport;tRateType;t rate type
+Global;prosgres;xxxxxx;FinancingImport;tRate;t rate
+Global;prosgres;xxxxxx;FinancingImport;tTaeg;t taeg
+Global;prosgres;xxxxxx;FinancingImport;row;row
+Global;prosgres;xxxxxx;FinancingImport;createdAt;created at
+Global;prosgres;xxxxxx;FinancingImport;updatedAt;updated at
+Global;prosgres;xxxxxx;FinancingImport;deletedAt;deleted at
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;id;id
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;amount;amount
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;contractSignatureDate;contract signature date
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;issueDate;issue date
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;periodicity;periodicity
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;firstDepreciationDeadline;first depreciation deadline
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;lastDepreciationDeadline;last depreciation deadline
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;preDepreciation;pre depreciation
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;installmentAmount;installment amount
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;rateType;rate type
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;rate;rate
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;taeg;taeg
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;spread;spread
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;status;status
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;createdAt;created at
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;updatedAt;updated at
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;deletedAt;deleted at
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;financingDuration;financing duration
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;filename;filename
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;originalFileName;original file name
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;fileSize;file size
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;fileUploadedAt;file uploaded at
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;assuranceAmount;assurance amount
+Global;prosgres;xxxxxx;FinancingProvisioningCertification;assurancePercentage;assurance percentage
+Global;prosgres;xxxxxx;LeasingDestination;id;id
+Global;prosgres;xxxxxx;LeasingDestination;destination;destination
+Global;prosgres;xxxxxx;LeasingDestination;code;code
+Global;prosgres;xxxxxx;LeasingImport;id;id
+Global;prosgres;xxxxxx;LeasingImport;practiceId;practice id
+Global;prosgres;xxxxxx;LeasingImport;sfBankLeasing;sf bank leasing
+Global;prosgres;xxxxxx;LeasingImport;sfBusinessName;sf business name
+Global;prosgres;xxxxxx;LeasingImport;sfLeasingDestination;sf leasing destination
+Global;prosgres;xxxxxx;LeasingImport;dclAmount;dcl amount
+Global;prosgres;xxxxxx;LeasingImport;dclContractSignatureDate;dcl contract signature date
+Global;prosgres;xxxxxx;LeasingImport;dclResolutionDate;dcl resolution date
+Global;prosgres;xxxxxx;LeasingImport;dclDuration;dcl duration
+Global;prosgres;xxxxxx;LeasingImport;dclPeriodicity;dcl periodicity
+Global;prosgres;xxxxxx;LeasingImport;dclFirstDeadline;dcl first deadline
+Global;prosgres;xxxxxx;LeasingImport;dclFeeAmount;dcl fee amount
+Global;prosgres;xxxxxx;LeasingImport;dclFeePercentage;dcl fee percentage
+Global;prosgres;xxxxxx;LeasingImport;dclRansomPercentage;dcl ransom percentage
+Global;prosgres;xxxxxx;LeasingImport;dclRate;dcl rate
+Global;prosgres;xxxxxx;LeasingImport;row;row
+Global;prosgres;xxxxxx;LeasingImport;createdAt;created at
+Global;prosgres;xxxxxx;LeasingImport;updatedAt;updated at
+Global;prosgres;xxxxxx;LeasingImport;deletedAt;deleted at
+Global;prosgres;xxxxxx;LegalForm;id;id
+Global;prosgres;xxxxxx;LegalForm;name;name
+Global;prosgres;xxxxxx;LegalForm;referenceId;reference id
+Global;prosgres;xxxxxx;LegalForm;cooperative;cooperative
+Global;prosgres;xxxxxx;LoginFailure;id;id
+Global;prosgres;xxxxxx;LoginFailure;remoteIp;remote ip
+Global;prosgres;xxxxxx;LoginFailure;createdAt;created at
+Global;prosgres;xxxxxx;Periodicity;id;id
+Global;prosgres;xxxxxx;Periodicity;type;type
+Global;prosgres;xxxxxx;Periodicity;months;months
+Global;prosgres;xxxxxx;ProtocolNumber;id;id
+Global;prosgres;xxxxxx;ProtocolNumber;counter;counter
+Global;prosgres;xxxxxx;ProtocolNumber;createdAt;created at
+Global;prosgres;xxxxxx;ProtocolNumber;updatedAt;updated at
+Global;prosgres;xxxxxx;ProtocolNumber;deletedAt;deleted at
+Global;prosgres;xxxxxx;RegistryFileAudit;id;id
+Global;prosgres;xxxxxx;RegistryFileAudit;fileName;file name
+Global;prosgres;xxxxxx;RegistryFileAudit;progressiveNumber;progressive number
+Global;prosgres;xxxxxx;RegistryFileAudit;type;type
+Global;prosgres;xxxxxx;RegistryFileAudit;createdAt;created at
+Global;prosgres;xxxxxx;RegistryFileAudit;updatedAt;updated at
+Global;prosgres;xxxxxx;RegistryFileAudit;deletedAt;deleted at
+Global;prosgres;xxxxxx;ReportImport;id;id
+Global;prosgres;xxxxxx;ReportImport;year;year
+Global;prosgres;xxxxxx;ReportImport;description;description
+Global;prosgres;xxxxxx;ReportImport;filename;filename
+Global;prosgres;xxxxxx;ReportImport;createdAt;created at
+Global;prosgres;xxxxxx;ReportImport;updatedAt;updated at
+Global;prosgres;xxxxxx;ReportImport;deletedAt;deleted at
+Global;prosgres;xxxxxx;User;id;id
+Global;prosgres;xxxxxx;User;email;email
+Global;prosgres;xxxxxx;User;roles;roles
+Global;prosgres;xxxxxx;User;password;password
+Global;prosgres;xxxxxx;User;lastLogin;last login
+Global;prosgres;xxxxxx;User;enabled;enabled
+Global;prosgres;xxxxxx;User;updatePasswordToken;update password token
+Global;prosgres;xxxxxx;User;googleAuthenticatorSecret;google authenticator secret
+Global;prosgres;xxxxxx;User;expiresAt;expires at
+Global;prosgres;xxxxxx;User;resetPasswordToken;reset password token
+Global;prosgres;xxxxxx;User;resetPasswordRequestedAt;reset password requested at
+Global;prosgres;xxxxxx;User;firstName;first name
+Global;prosgres;xxxxxx;User;lastName;last name
+Global;prosgres;xxxxxx;User;mobilePhone;mobile phone
+Global;prosgres;xxxxxx;User;fiscalId;fiscal id
+Global;prosgres;xxxxxx;User;birth;birth
+Global;prosgres;xxxxxx;User;birthCountry;birth country
+Global;prosgres;xxxxxx;User;birthRegion;birth region
+Global;prosgres;xxxxxx;User;birthProvince;birth province
+Global;prosgres;xxxxxx;User;birthCity;birth city
+Global;prosgres;xxxxxx;UserPassword;id;id
+Global;prosgres;xxxxxx;UserPassword;passwordHash;password hash
+Global;prosgres;xxxxxx;UserPassword;createdAt;created at
+Global;prosgres;xxxxxx;UserPassword;isGenerated;is generated
