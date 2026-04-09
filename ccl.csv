@@ -1,0 +1,439 @@
+ambito;dbms;istanza;nome tabella;nome colonna;nome funzionale
+global;prosgres;xxxxxx;AdditionalContribution;id;Identificativo contributo aggiuntivo
+global;prosgres;xxxxxx;AdditionalContribution;type;Tipo contributo aggiuntivo
+global;prosgres;xxxxxx;AdditionalContribution;presentationDate;Data presentazione contributo
+global;prosgres;xxxxxx;AdditionalContribution;createdAt;Data creazione contributo
+global;prosgres;xxxxxx;AdditionalContribution;updatedAt;Data aggiornamento contributo
+global;prosgres;xxxxxx;AdditionalContribution;deletedAt;Data eliminazione contributo
+global;prosgres;xxxxxx;AdditionalContribution;inImport;Contributo creato da importazione
+global;prosgres;xxxxxx;AdditionalContribution;nsiaNumeroPosizione;Numero posizione NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaStatus;Stato NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaNota;Nota NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataDelibera;Data delibera NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaCodiceCor;Codice COR NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRilascioCor;Data rilascio COR NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoDeliberato;Importo contributo deliberato contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoLiquidato;Importo contributo liquidato contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataLiquidazione;Data liquidazione NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaIbanLiquidazione;IBAN liquidazione NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRevoca;Data revoca NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaMotivoRevoca;Motivo revoca NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoRevocato;Importo contributo revocato contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataAvvioProcedimentoRevoca;Data avvio revoca NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoRecuperoDovuto;Importo recupero dovuto contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaInteressiDovuti;Interessi dovuti NSIA contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRichiestaRecupero;Data richiesta recupero contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoContributoRestituito;Importo contributo restituito contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaImportoInteressiRestituiti;Importo interessi restituiti contributo
+global;prosgres;xxxxxx;AdditionalContribution;nsiaDataRestituzione;Data restituzione NSIA contributo
+global;prosgres;xxxxxx;Application;id;Identificativo pratica
+global;prosgres;xxxxxx;Application;practiceId;Codice pratica gestionale
+global;prosgres;xxxxxx;Application;flagEnergia;Indicatore settore energia
+global;prosgres;xxxxxx;Application;aeGAssuranceAmount;Importo garanzia pratica
+global;prosgres;xxxxxx;Application;aeGResolutionDate;Data delibera garanzia pratica
+global;prosgres;xxxxxx;Application;aeAcCommissionsRebateRequest;Richiesta rimborso commissioni pratica
+global;prosgres;xxxxxx;Application;aeAcInterestsContributionRequest;Richiesta contributo interessi pratica
+global;prosgres;xxxxxx;Application;aeAcLostFundContributionRequest;Richiesta fondo perduto pratica
+global;prosgres;xxxxxx;Application;aeAcContributionApplicationAmount;Importo contributo richiesto pratica
+global;prosgres;xxxxxx;Application;aeAcApplicationMembers;Numero soci richiedenti pratica
+global;prosgres;xxxxxx;Application;aeIbBusinessName;Ragione sociale impresa pratica
+global;prosgres;xxxxxx;Application;aeIbFiscalCode;Codice fiscale impresa pratica
+global;prosgres;xxxxxx;Application;aeIbSize;Dimensione impresa pratica
+global;prosgres;xxxxxx;Application;aeIbConstitutionDate;Data costituzione impresa pratica
+global;prosgres;xxxxxx;Application;aeIbChamberOfCommerceCode;Codice camera commercio pratica
+global;prosgres;xxxxxx;Application;aeIbChamberOfCommerceRegistrationDate;Data iscrizione camera commercio pratica
+global;prosgres;xxxxxx;Application;aeIbAIACode;Codice AIA impresa pratica
+global;prosgres;xxxxxx;Application;aeIbAIARegistrationDate;Data iscrizione AIA pratica
+global;prosgres;xxxxxx;Application;aeIbAtecoCode;Codice ATECO impresa pratica
+global;prosgres;xxxxxx;Application;aeIbAtecoStartDate;Data inizio ATECO pratica
+global;prosgres;xxxxxx;Application;aeIbIban;IBAN impresa pratica
+global;prosgres;xxxxxx;Application;aeIbLegalForm;Forma giuridica impresa pratica
+global;prosgres;xxxxxx;Application;aePecAddress;Indirizzo PEC impresa pratica
+global;prosgres;xxxxxx;Application;aeOfficeAddress;Indirizzo sede legale pratica
+global;prosgres;xxxxxx;Application;aeOfficePostcode;CAP sede legale pratica
+global;prosgres;xxxxxx;Application;aeOfficeCity;Comune sede legale pratica
+global;prosgres;xxxxxx;Application;aeWorkplaceAddress;Indirizzo sede operativa pratica
+global;prosgres;xxxxxx;Application;aeWorkplacePostcode;CAP sede operativa pratica
+global;prosgres;xxxxxx;Application;aeWorkplaceCity;Comune sede operativa pratica
+global;prosgres;xxxxxx;Application;aeOwnerLastname;Cognome titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerFirstname;Nome titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerBirthDate;Data nascita titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerGender;Sesso titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerFiscalCode;Codice fiscale titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerBirthCity;Comune nascita titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerBirthCountry;Stato nascita titolare pratica
+global;prosgres;xxxxxx;Application;aeOwnerJoinDate;Data ingresso titolare pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberLastname;Cognome primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberFirstname;Nome primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberBirthDate;Data nascita primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberGender;Sesso primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberFiscalCode;Codice fiscale primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberBirthCity;Comune nascita primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberBirthCountry;Stato nascita primo socio pratica
+global;prosgres;xxxxxx;Application;aeFirstMemberJoinDate;Data ingresso primo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberLastname;Cognome secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberFirstname;Nome secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberBirthDate;Data nascita secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberGender;Sesso secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberFiscalCode;Codice fiscale secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberBirthCity;Comune nascita secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberBirthCountry;Stato nascita secondo socio pratica
+global;prosgres;xxxxxx;Application;aeSecondMemberJoinDate;Data ingresso secondo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberLastname;Cognome terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberFirstname;Nome terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberBirthDate;Data nascita terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberGender;Sesso terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberFiscalCode;Codice fiscale terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberBirthCity;Comune nascita terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberBirthCountry;Stato nascita terzo socio pratica
+global;prosgres;xxxxxx;Application;aeThirdMemberJoinDate;Data ingresso terzo socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberLastname;Cognome quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberFirstname;Nome quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberBirthDate;Data nascita quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberGender;Sesso quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberFiscalCode;Codice fiscale quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberBirthCity;Comune nascita quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberBirthCountry;Stato nascita quarto socio pratica
+global;prosgres;xxxxxx;Application;aeFourthMemberJoinDate;Data ingresso quarto socio pratica
+global;prosgres;xxxxxx;Application;fDbfBank;Banca del finanziamento pratica
+global;prosgres;xxxxxx;Application;fDbfBusinessName;Denominazione banca pratica
+global;prosgres;xxxxxx;Application;fDbfABI;Codice ABI banca pratica
+global;prosgres;xxxxxx;Application;fFFinancialDestination;Destinazione finanziamento pratica
+global;prosgres;xxxxxx;Application;fDfLoanProvidedAtImport;Finanziamento erogato pratica
+global;prosgres;xxxxxx;Application;fDfAmount;Importo del finanziamento pratica
+global;prosgres;xxxxxx;Application;fDfContractSignatureDate;Data firma contratto pratica
+global;prosgres;xxxxxx;Application;fDfResolutionDate;Data delibera finanziamento pratica
+global;prosgres;xxxxxx;Application;fDfIssueDate;Data erogazione finanziamento pratica
+global;prosgres;xxxxxx;Application;fDfDuration;Durata finanziamento pratica
+global;prosgres;xxxxxx;Application;fDfPeriodicity;Periodicita rate finanziamento pratica
+global;prosgres;xxxxxx;Application;fDfFirstDepreciationDeadline;Prima scadenza ammortamento pratica
+global;prosgres;xxxxxx;Application;fDfPreDepreciationExists;Presenza preammortamento pratica
+global;prosgres;xxxxxx;Application;fDfInstallmentAmount;Importo rata finanziamento pratica
+global;prosgres;xxxxxx;Application;fTRateType;Tipologia tasso finanziamento pratica
+global;prosgres;xxxxxx;Application;fTRate;Tasso del finanziamento pratica
+global;prosgres;xxxxxx;Application;fTTaeg;TAEG del finanziamento pratica
+global;prosgres;xxxxxx;Application;lSfBankLeasing;Banca del leasing pratica
+global;prosgres;xxxxxx;Application;lSfBusinessName;Ragione sociale leasing pratica
+global;prosgres;xxxxxx;Application;lSfLeasingDestination;Destinazione leasing pratica
+global;prosgres;xxxxxx;Application;lDclAmount;Importo leasing pratica
+global;prosgres;xxxxxx;Application;lDclContractSignatureDate;Data firma contratto leasing pratica
+global;prosgres;xxxxxx;Application;lDclResolutionDate;Data delibera leasing pratica
+global;prosgres;xxxxxx;Application;lDclDuration;Durata leasing pratica
+global;prosgres;xxxxxx;Application;lDclPeriodicity;Periodicita canoni leasing pratica
+global;prosgres;xxxxxx;Application;lDclFirstDeadline;Prima scadenza leasing pratica
+global;prosgres;xxxxxx;Application;lDclFeeAmount;Importo canone leasing pratica
+global;prosgres;xxxxxx;Application;lDclFeePercentage;Percentuale canone leasing pratica
+global;prosgres;xxxxxx;Application;lDclRansomPercentage;Percentuale riscatto leasing pratica
+global;prosgres;xxxxxx;Application;lDclRate;Tasso leasing pratica
+global;prosgres;xxxxxx;Application;protocolNumber;Numero protocollo pratica
+global;prosgres;xxxxxx;Application;protocolDate;Data protocollo pratica
+global;prosgres;xxxxxx;Application;createdAt;Data creazione pratica
+global;prosgres;xxxxxx;Application;updatedAt;Data aggiornamento pratica
+global;prosgres;xxxxxx;Application;deletedAt;Data eliminazione pratica
+global;prosgres;xxxxxx;Application;status;Stato corrente pratica
+global;prosgres;xxxxxx;Application;inquestStatus;Stato istruttoria pratica
+global;prosgres;xxxxxx;Application;nsiaNumeroPosizione;Numero posizione NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaDataProtocollo;Data protocollo NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaNota;Nota NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaDataDelibera;Data delibera NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaCodiceCor;Codice COR NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaDataRilascioCor;Data rilascio COR NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaLDclImportoRiscatto;Importo riscatto leasing pratica
+global;prosgres;xxxxxx;Application;nsiaDurataGaranzia;Durata garanzia NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaImportoRiassicurazione;Importo riassicurazione NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaEslRiassicurazione;ESL riassicurazione NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaDataInizioGaranzia;Data inizio garanzia pratica
+global;prosgres;xxxxxx;Application;nsiaDataFineGaranzia;Data fine garanzia pratica
+global;prosgres;xxxxxx;Application;nsiaDataLiquidazioneConfidi;Data liquidazione confidi pratica
+global;prosgres;xxxxxx;Application;nsiaImportoPerditaConfidi;Importo perdita confidi pratica
+global;prosgres;xxxxxx;Application;nsiaDataRichiestaRimborso;Data richiesta rimborso pratica
+global;prosgres;xxxxxx;Application;nsiaDataProtocolloPerdita;Data protocollo perdita pratica
+global;prosgres;xxxxxx;Application;nsiaDataDeliberaPerdita;Data delibera perdita pratica
+global;prosgres;xxxxxx;Application;nsiaImportoRimborsoPrenotato;Importo rimborso prenotato pratica
+global;prosgres;xxxxxx;Application;nsiaImportoRimborsato;Importo rimborsato NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaDataLiquidazione;Data liquidazione NSIA pratica
+global;prosgres;xxxxxx;Application;nsiaImportoRestituitoConfidi;Importo restituito confidi pratica
+global;prosgres;xxxxxx;Application;nsiaDataRestituzioneConfidi;Data restituzione confidi pratica
+global;prosgres;xxxxxx;ApplicationAttachment;id;Identificativo allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;fileName;Nome file allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;originalFileName;Nome originale allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;fileSize;Dimensione allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;fileUploadedAt;Data caricamento allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;description;Descrizione allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;createdAt;Data creazione allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;updatedAt;Data aggiornamento allegato pratica
+global;prosgres;xxxxxx;ApplicationAttachment;deletedAt;Data eliminazione allegato pratica
+global;prosgres;xxxxxx;ApplicationGroup;id;Identificativo gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;protocolNumber;Numero protocollo gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;protocolDate;Data protocollo gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;status;Stato gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;filename;Nome file gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;originalFileName;Nome originale gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;fileSize;Dimensione file gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;fileUploadedAt;Data caricamento gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;createdAt;Data creazione gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;updatedAt;Data aggiornamento gruppo pratiche
+global;prosgres;xxxxxx;ApplicationGroup;deletedAt;Data eliminazione gruppo pratiche
+global;prosgres;xxxxxx;ApplicationImport;id;Identificativo importazione pratiche
+global;prosgres;xxxxxx;ApplicationImport;filename;Nome file importazione pratiche
+global;prosgres;xxxxxx;ApplicationImport;status;Stato importazione pratiche
+global;prosgres;xxxxxx;ApplicationImport;createdAt;Data creazione importazione pratiche
+global;prosgres;xxxxxx;ApplicationImport;updatedAt;Data aggiornamento importazione pratiche
+global;prosgres;xxxxxx;ApplicationImport;deletedAt;Data eliminazione importazione pratiche
+global;prosgres;xxxxxx;ApplicationImport;errors;Dettaglio errori importazione pratiche
+global;prosgres;xxxxxx;ApplicationImportTemplate;id;Identificativo template importazione
+global;prosgres;xxxxxx;ApplicationImportTemplate;filename;Nome file template importazione
+global;prosgres;xxxxxx;ApplicationImportTemplate;active;Template importazione attivo
+global;prosgres;xxxxxx;ApplicationImportTemplate;createdAt;Data creazione template importazione
+global;prosgres;xxxxxx;ApplicationImportTemplate;revision;Numero revisione template importazione
+global;prosgres;xxxxxx;ApplicationMessage;id;Identificativo messaggio pratica
+global;prosgres;xxxxxx;ApplicationMessage;text;Testo messaggio pratica
+global;prosgres;xxxxxx;ApplicationMessage;published;Messaggio pratica pubblicato
+global;prosgres;xxxxxx;ApplicationMessage;createdAt;Data creazione messaggio pratica
+global;prosgres;xxxxxx;ApplicationMessage;updatedAt;Data aggiornamento messaggio pratica
+global;prosgres;xxxxxx;ApplicationMessage;deletedAt;Data eliminazione messaggio pratica
+global;prosgres;xxxxxx;ApplicationMessageAttachment;id;Identificativo allegato messaggio
+global;prosgres;xxxxxx;ApplicationMessageAttachment;fileName;Nome file allegato messaggio
+global;prosgres;xxxxxx;ApplicationMessageAttachment;fileSize;Dimensione allegato messaggio
+global;prosgres;xxxxxx;ApplicationMessageAttachment;originalFileName;Nome originale allegato messaggio
+global;prosgres;xxxxxx;ApplicationMessageAttachment;createdAt;Data creazione allegato messaggio
+global;prosgres;xxxxxx;ApplicationMessageAttachment;updatedAt;Data aggiornamento allegato messaggio
+global;prosgres;xxxxxx;ApplicationMessageAttachment;deletedAt;Data eliminazione allegato messaggio
+global;prosgres;xxxxxx;ApplicationStatusLog;id;Identificativo log stato pratica
+global;prosgres;xxxxxx;ApplicationStatusLog;status;Stato registrato nel log
+global;prosgres;xxxxxx;ApplicationStatusLog;description;Motivazione cambio stato pratica
+global;prosgres;xxxxxx;ApplicationStatusLog;createdAt;Data creazione log stato
+global;prosgres;xxxxxx;ApplicationStatusLog;deletedAt;Data eliminazione log stato
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;id;Identificativo importazione impresa
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;practiceId;Codice pratica importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;flagEnergia;Indicatore energia impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;gAssuranceAmount;Importo garanzia impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;gResolutionDate;Data delibera garanzia impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;acCommissionsRebateRequest;Richiesta rimborso commissioni impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;acInterestsContributionRequest;Richiesta contributo interessi impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;acLostFundContributionRequest;Richiesta fondo perduto impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;acContributionApplicationAmount;Importo contributo richiesto impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;acApplicationMembers;Numero soci richiedenti impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibBusinessName;Ragione sociale impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibFiscalCode;Codice fiscale impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibSize;Dimensione impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibConstitutionDate;Data costituzione impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibChamberOfCommerceCode;Codice camera commercio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibChamberOfCommerceRegistrationDate;Data iscrizione camera commercio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAIACode;Codice AIA impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAIARegistrationDate;Data iscrizione AIA impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAtecoCode;Codice ATECO impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibAtecoStartDate;Data inizio ATECO impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibIban;IBAN impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ibLegalForm;Forma giuridica impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;pecAddress;Indirizzo PEC impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;officeAddress;Indirizzo sede legale impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;officePostcode;CAP sede legale impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;officeCity;Comune sede legale impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;workplaceAddress;Indirizzo sede operativa impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;workplacePostcode;CAP sede operativa impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;workplaceCity;Comune sede operativa impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerLastname;Cognome titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerFirstname;Nome titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerBirthDate;Data nascita titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerGender;Sesso titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerFiscalCode;Codice fiscale titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerBirthCity;Comune nascita titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerBirthCountry;Stato nascita titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;ownerJoinDate;Data ingresso titolare impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberLastname;Cognome primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberFirstname;Nome primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberBirthDate;Data nascita primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberGender;Sesso primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberFiscalCode;Codice fiscale primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberBirthCity;Comune nascita primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberBirthCountry;Stato nascita primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;firstMemberJoinDate;Data ingresso primo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberLastname;Cognome secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberFirstname;Nome secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberBirthDate;Data nascita secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberGender;Sesso secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberFiscalCode;Codice fiscale secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberBirthCity;Comune nascita secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberBirthCountry;Stato nascita secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;secondMemberJoinDate;Data ingresso secondo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberLastname;Cognome terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberFirstname;Nome terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberBirthDate;Data nascita terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberGender;Sesso terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberFiscalCode;Codice fiscale terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberBirthCity;Comune nascita terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberBirthCountry;Stato nascita terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;thirdMemberJoinDate;Data ingresso terzo socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberLastname;Cognome quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberFirstname;Nome quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberBirthDate;Data nascita quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberGender;Sesso quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberFiscalCode;Codice fiscale quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberBirthCity;Comune nascita quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberBirthCountry;Stato nascita quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;fourthMemberJoinDate;Data ingresso quarto socio impresa importata
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;row;Numero riga importazione impresa
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;createdAt;Data creazione importazione impresa
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;updatedAt;Data aggiornamento importazione impresa
+global;prosgres;xxxxxx;AssuranceEnterpriseImport;deletedAt;Data eliminazione importazione impresa
+global;prosgres;xxxxxx;AtecoCode;id;Identificativo codice ATECO
+global;prosgres;xxxxxx;AtecoCode;code;Codice ATECO
+global;prosgres;xxxxxx;AtecoCode;codeWithoutDots;Codice ATECO senza punti
+global;prosgres;xxxxxx;AtecoCode;description;Descrizione attivita ATECO
+global;prosgres;xxxxxx;AtecoCode;section;Sezione classificazione ATECO
+global;prosgres;xxxxxx;Bank;id;Identificativo banca
+global;prosgres;xxxxxx;Bank;name;Denominazione banca
+global;prosgres;xxxxxx;Bank;code;Codice banca
+global;prosgres;xxxxxx;BankLeasing;id;Identificativo banca leasing
+global;prosgres;xxxxxx;BankLeasing;name;Denominazione banca leasing
+global;prosgres;xxxxxx;BankLeasing;code;Codice banca leasing
+global;prosgres;xxxxxx;City;id;Identificativo comune
+global;prosgres;xxxxxx;City;name;Nome comune
+global;prosgres;xxxxxx;City;code;Codice comune
+global;prosgres;xxxxxx;City;inRegion;Comune presente nella regione
+global;prosgres;xxxxxx;CompanySize;id;Identificativo dimensione impresa
+global;prosgres;xxxxxx;CompanySize;size;Descrizione dimensione impresa
+global;prosgres;xxxxxx;CompanySize;code;Codice dimensione impresa
+global;prosgres;xxxxxx;Confidi;id;Identificativo confidi
+global;prosgres;xxxxxx;Confidi;businessName;Ragione sociale confidi
+global;prosgres;xxxxxx;Confidi;legalRepresentative;Legale rappresentante confidi
+global;prosgres;xxxxxx;Confidi;iban;IBAN confidi
+global;prosgres;xxxxxx;Confidi;fiscalCode;Codice fiscale confidi
+global;prosgres;xxxxxx;Confidi;nsiaCode;Codice NSIA del confidi
+global;prosgres;xxxxxx;Confidi;nsiaTotGarantito;Totale garantito NSIA
+global;prosgres;xxxxxx;Confidi;nsiaTotRiservaAccantonata;Riserva accantonata NSIA
+global;prosgres;xxxxxx;Confidi;nsiaTotInefficace;Totale importo inefficace NSIA
+global;prosgres;xxxxxx;Confidi;nsiaTotEscusso;Totale importo escusso NSIA
+global;prosgres;xxxxxx;Confidi;nsiaTotEscutibile;Totale importo escutibile NSIA
+global;prosgres;xxxxxx;Confidi;nsiaNumeroPratichePresentate;Numero pratiche presentate NSIA
+global;prosgres;xxxxxx;Confidi;nsiaNumeroPraticheApprovate;Numero pratiche approvate NSIA
+global;prosgres;xxxxxx;Confidi;nsiaNumeroPraticheInEssere;Numero pratiche attive NSIA
+global;prosgres;xxxxxx;Country;id;Identificativo nazione
+global;prosgres;xxxxxx;Country;name;Nome nazione
+global;prosgres;xxxxxx;Country;code;Codice nazione
+global;prosgres;xxxxxx;FinancialDestination;id;Identificativo destinazione finanziamento
+global;prosgres;xxxxxx;FinancialDestination;destination;Descrizione destinazione finanziamento
+global;prosgres;xxxxxx;FinancialDestination;code;Codice destinazione finanziamento
+global;prosgres;xxxxxx;FinancingImport;id;Identificativo importazione finanziamento
+global;prosgres;xxxxxx;FinancingImport;practiceId;Codice pratica finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dbfBank;Banca del finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dbfBusinessName;Denominazione banca importata
+global;prosgres;xxxxxx;FinancingImport;dbfABI;Codice ABI banca importato
+global;prosgres;xxxxxx;FinancingImport;fFinancialDestination;Destinazione finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dfLoanProvidedAtImport;Finanziamento erogato importato
+global;prosgres;xxxxxx;FinancingImport;dfAmount;Importo del finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dfContractSignatureDate;Data firma contratto importato
+global;prosgres;xxxxxx;FinancingImport;dfResolutionDate;Data delibera finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dfIssueDate;Data erogazione finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dfDuration;Durata finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dfPeriodicity;Periodicita rate finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;dfFirstDepreciationDeadline;Prima scadenza ammortamento importato
+global;prosgres;xxxxxx;FinancingImport;dfPreDepreciationExists;Presenza preammortamento importato
+global;prosgres;xxxxxx;FinancingImport;dfInstallmentAmount;Importo rata finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;tRateType;Tipologia tasso finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;tRate;Tasso del finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;tTaeg;TAEG del finanziamento importato
+global;prosgres;xxxxxx;FinancingImport;row;Numero riga importazione finanziamento
+global;prosgres;xxxxxx;FinancingImport;createdAt;Data creazione importazione finanziamento
+global;prosgres;xxxxxx;FinancingImport;updatedAt;Data aggiornamento importazione finanziamento
+global;prosgres;xxxxxx;FinancingImport;deletedAt;Data eliminazione importazione finanziamento
+global;prosgres;xxxxxx;FinancingProvisioningCertification;id;Identificativo certificazione erogazione
+global;prosgres;xxxxxx;FinancingProvisioningCertification;amount;Importo certificato
+global;prosgres;xxxxxx;FinancingProvisioningCertification;contractSignatureDate;Data firma contratto
+global;prosgres;xxxxxx;FinancingProvisioningCertification;issueDate;Data erogazione finanziamento
+global;prosgres;xxxxxx;FinancingProvisioningCertification;periodicity;Periodicita rate
+global;prosgres;xxxxxx;FinancingProvisioningCertification;firstDepreciationDeadline;Prima scadenza ammortamento
+global;prosgres;xxxxxx;FinancingProvisioningCertification;lastDepreciationDeadline;Ultima scadenza ammortamento
+global;prosgres;xxxxxx;FinancingProvisioningCertification;preDepreciation;Presenza di preammortamento
+global;prosgres;xxxxxx;FinancingProvisioningCertification;installmentAmount;Importo rata
+global;prosgres;xxxxxx;FinancingProvisioningCertification;rateType;Tipologia tasso
+global;prosgres;xxxxxx;FinancingProvisioningCertification;rate;Tasso applicato
+global;prosgres;xxxxxx;FinancingProvisioningCertification;taeg;TAEG applicato
+global;prosgres;xxxxxx;FinancingProvisioningCertification;spread;Spread applicato
+global;prosgres;xxxxxx;FinancingProvisioningCertification;status;Stato certificazione erogazione
+global;prosgres;xxxxxx;FinancingProvisioningCertification;createdAt;Data creazione certificazione erogazione
+global;prosgres;xxxxxx;FinancingProvisioningCertification;updatedAt;Data aggiornamento certificazione erogazione
+global;prosgres;xxxxxx;FinancingProvisioningCertification;deletedAt;Data eliminazione certificazione erogazione
+global;prosgres;xxxxxx;FinancingProvisioningCertification;financingDuration;Durata del finanziamento
+global;prosgres;xxxxxx;FinancingProvisioningCertification;filename;Nome del file
+global;prosgres;xxxxxx;FinancingProvisioningCertification;originalFileName;Nome originale del file
+global;prosgres;xxxxxx;FinancingProvisioningCertification;fileSize;Dimensione del file
+global;prosgres;xxxxxx;FinancingProvisioningCertification;fileUploadedAt;Data caricamento file
+global;prosgres;xxxxxx;FinancingProvisioningCertification;assuranceAmount;Importo della garanzia
+global;prosgres;xxxxxx;FinancingProvisioningCertification;assurancePercentage;Percentuale della garanzia
+global;prosgres;xxxxxx;LeasingDestination;id;Identificativo destinazione leasing
+global;prosgres;xxxxxx;LeasingDestination;destination;Descrizione destinazione leasing
+global;prosgres;xxxxxx;LeasingDestination;code;Codice destinazione leasing
+global;prosgres;xxxxxx;LeasingImport;id;Identificativo importazione leasing
+global;prosgres;xxxxxx;LeasingImport;practiceId;Codice pratica leasing importato
+global;prosgres;xxxxxx;LeasingImport;sfBankLeasing;Banca del leasing importato
+global;prosgres;xxxxxx;LeasingImport;sfBusinessName;Ragione sociale leasing importato
+global;prosgres;xxxxxx;LeasingImport;sfLeasingDestination;Destinazione leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclAmount;Importo leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclContractSignatureDate;Data firma contratto leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclResolutionDate;Data delibera leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclDuration;Durata leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclPeriodicity;Periodicita canoni leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclFirstDeadline;Prima scadenza leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclFeeAmount;Importo canone leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclFeePercentage;Percentuale canone leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclRansomPercentage;Percentuale riscatto leasing importato
+global;prosgres;xxxxxx;LeasingImport;dclRate;Tasso leasing importato
+global;prosgres;xxxxxx;LeasingImport;row;Numero riga importazione leasing
+global;prosgres;xxxxxx;LeasingImport;createdAt;Data creazione importazione leasing
+global;prosgres;xxxxxx;LeasingImport;updatedAt;Data aggiornamento importazione leasing
+global;prosgres;xxxxxx;LeasingImport;deletedAt;Data eliminazione importazione leasing
+global;prosgres;xxxxxx;LegalForm;id;Identificativo forma giuridica
+global;prosgres;xxxxxx;LegalForm;name;Nome forma giuridica
+global;prosgres;xxxxxx;LegalForm;referenceId;Codice riferimento forma giuridica
+global;prosgres;xxxxxx;LegalForm;cooperative;Forma giuridica cooperativa
+global;prosgres;xxxxxx;LoginFailure;id;Identificativo tentativo accesso
+global;prosgres;xxxxxx;LoginFailure;remoteIp;Indirizzo IP tentativo accesso
+global;prosgres;xxxxxx;LoginFailure;createdAt;Data tentativo accesso fallito
+global;prosgres;xxxxxx;Periodicity;id;Identificativo periodicita rate
+global;prosgres;xxxxxx;Periodicity;type;Codice periodicita rate
+global;prosgres;xxxxxx;Periodicity;months;Numero mesi periodicita rate
+global;prosgres;xxxxxx;ProtocolNumber;id;Identificativo contatore protocollo
+global;prosgres;xxxxxx;ProtocolNumber;counter;Ultimo numero progressivo protocollo
+global;prosgres;xxxxxx;ProtocolNumber;createdAt;Data creazione contatore protocollo
+global;prosgres;xxxxxx;ProtocolNumber;updatedAt;Data aggiornamento contatore protocollo
+global;prosgres;xxxxxx;ProtocolNumber;deletedAt;Data eliminazione contatore protocollo
+global;prosgres;xxxxxx;RegistryFileAudit;id;Identificativo file audit NSIA
+global;prosgres;xxxxxx;RegistryFileAudit;fileName;Nome file audit NSIA
+global;prosgres;xxxxxx;RegistryFileAudit;progressiveNumber;Numero progressivo file audit
+global;prosgres;xxxxxx;RegistryFileAudit;type;Tipo flusso file audit
+global;prosgres;xxxxxx;RegistryFileAudit;createdAt;Data creazione file audit
+global;prosgres;xxxxxx;RegistryFileAudit;updatedAt;Data aggiornamento file audit
+global;prosgres;xxxxxx;RegistryFileAudit;deletedAt;Data eliminazione file audit
+global;prosgres;xxxxxx;ReportImport;id;Identificativo importazione report
+global;prosgres;xxxxxx;ReportImport;year;Anno report importato
+global;prosgres;xxxxxx;ReportImport;description;Descrizione report importato
+global;prosgres;xxxxxx;ReportImport;filename;Nome file report importato
+global;prosgres;xxxxxx;ReportImport;createdAt;Data creazione importazione report
+global;prosgres;xxxxxx;ReportImport;updatedAt;Data aggiornamento importazione report
+global;prosgres;xxxxxx;ReportImport;deletedAt;Data eliminazione importazione report
+global;prosgres;xxxxxx;User;id;Identificativo utente
+global;prosgres;xxxxxx;User;email;Indirizzo email utente
+global;prosgres;xxxxxx;User;roles;Ruoli assegnati utente
+global;prosgres;xxxxxx;User;password;Password cifrata utente
+global;prosgres;xxxxxx;User;lastLogin;Data ultimo accesso utente
+global;prosgres;xxxxxx;User;enabled;Utente abilitato all'accesso
+global;prosgres;xxxxxx;User;updatePasswordToken;Token cambio password utente
+global;prosgres;xxxxxx;User;googleAuthenticatorSecret;Chiave Google Authenticator utente
+global;prosgres;xxxxxx;User;expiresAt;Data scadenza utente
+global;prosgres;xxxxxx;User;resetPasswordToken;Token reset password utente
+global;prosgres;xxxxxx;User;resetPasswordRequestedAt;Data richiesta reset password utente
+global;prosgres;xxxxxx;User;firstName;Nome utente
+global;prosgres;xxxxxx;User;lastName;Cognome utente
+global;prosgres;xxxxxx;User;mobilePhone;Cellulare utente
+global;prosgres;xxxxxx;User;fiscalId;Codice fiscale utente
+global;prosgres;xxxxxx;User;birth;Data nascita utente
+global;prosgres;xxxxxx;User;birthCountry;Stato nascita utente
+global;prosgres;xxxxxx;User;birthRegion;Regione nascita utente
+global;prosgres;xxxxxx;User;birthProvince;Provincia nascita utente
+global;prosgres;xxxxxx;User;birthCity;Comune nascita utente
+global;prosgres;xxxxxx;UserPassword;id;Identificativo storico password
+global;prosgres;xxxxxx;UserPassword;passwordHash;Hash password storico utente
+global;prosgres;xxxxxx;UserPassword;createdAt;Data creazione storico password
+global;prosgres;xxxxxx;UserPassword;isGenerated;Password storica generata automaticamente
